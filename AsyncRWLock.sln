@@ -1,0 +1,22 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AsyncRWLock", "AsyncRWLock\AsyncRWLock.csproj", "{F7780E96-2BB2-4027-9767-5EF8B7057128}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AsyncRWLock.Tests", "AsyncRWLock.Tests\AsyncRWLock.Tests.csproj", "{95761873-699D-44A6-829F-05410BC60217}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F7780E96-2BB2-4027-9767-5EF8B7057128}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F7780E96-2BB2-4027-9767-5EF8B7057128}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F7780E96-2BB2-4027-9767-5EF8B7057128}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F7780E96-2BB2-4027-9767-5EF8B7057128}.Release|Any CPU.Build.0 = Release|Any CPU
+		{95761873-699D-44A6-829F-05410BC60217}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{95761873-699D-44A6-829F-05410BC60217}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{95761873-699D-44A6-829F-05410BC60217}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{95761873-699D-44A6-829F-05410BC60217}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
