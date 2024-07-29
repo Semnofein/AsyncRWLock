@@ -1,8 +1,24 @@
 <Project Sdk="Microsoft.NET.Sdk">
 
     <PropertyGroup>
-        <TargetFramework>netcoreapp3.1</TargetFramework>
+        <TargetFramework>netstandard2.1</TargetFramework>
         <LangVersion>default</LangVersion>
+        <PackageId>Semnofein.AsyncRWLock</PackageId>
+        <Version>2024.1.0</Version>
+        <Authors>Fedor Tyrdanov aka Semnofein</Authors>
+        <PackageDescription>This package represents asynchronous ReaderWriter lock</PackageDescription>
+        <RepositoryUrl>https://github.com/Semnofein/AsyncRWLock</RepositoryUrl>
+        <PackageLicenseFile>LICENSE</PackageLicenseFile>
+        <PackageReadmeFile>README.md</PackageReadmeFile>
     </PropertyGroup>
+
+    <PropertyGroup Condition="'$(Configuration)' == 'Release' And '$(Platform)' == 'AnyCPU'">
+        <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    </PropertyGroup>
+
+    <ItemGroup>
+        <None Include="..\LICENSE" Pack="true" PackagePath="\" />
+        <None Include="..\README.md" Pack="true" PackagePath="\" />
+    </ItemGroup>
 
 </Project>
